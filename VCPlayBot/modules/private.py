@@ -55,18 +55,9 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                          "📚 Commands", callback_data="cbcmds"
                     ),
-                    InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
-                ],[
-                    InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
-                    )
+                        "DEVELOPER", url=f"https://t.me/D33PVIRK")
                 ]
             ]
         ),
